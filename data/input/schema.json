@@ -1,0 +1,1469 @@
+[
+  {
+    "ID": "1",
+    "Category": "Company Basics",
+    "Description": "Full legal/official name of the entity",
+    "Parameter": "Company Name",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "2",
+    "Category": "Company Basics",
+    "Description": "Commonly used short/abbreviated name",
+    "Parameter": "Short Name",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "3",
+    "Category": "Company Basics",
+    "Description": "Representative logo URL or image link",
+    "Parameter": "Logo",
+    "Type": "URL",
+    "MinMax": "1 | 5",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "4",
+    "Category": "Company Basics",
+    "Description": "Business classification (Startup, MSME, SMB, Investor, VC)",
+    "Parameter": "Category",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "5",
+    "Category": "Company Basics",
+    "Description": "Year the company was legally incorporated/founded",
+    "Parameter": "Year of Incorporation",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "6",
+    "Category": "Company Narrative",
+    "Description": "A high-level summary of what the company does and its market position.",
+    "Parameter": "Overview of the Company",
+    "Type": "Text",
+    "MinMax": "1 | 1",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "7",
+    "Category": "Company Basics",
+    "Description": "Ownership structure (Private, Public, Subsidiary, etc.)",
+    "Parameter": "Nature of Company",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "8",
+    "Category": "Company Basics",
+    "Description": "Primary headquarters address and location",
+    "Parameter": "Company Headquarters",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "9",
+    "Category": "Geographic Presence",
+    "Description": "List of countries where the company actively operates",
+    "Parameter": "Countries Operating In",
+    "Type": "Text",
+    "MinMax": "1 | 10",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "10",
+    "Category": "Geographic Presence",
+    "Description": "Number of additional offices excluding headquarters",
+    "Parameter": "Number of Offices (beyond HQ)",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "11",
+    "Category": "Geographic Presence",
+    "Description": "Specific addresses/locations of all offices",
+    "Parameter": "Office Locations",
+    "Type": "Text",
+    "MinMax": "1 | 10",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "12",
+    "Category": "People & Talent",
+    "Description": "Total headcount/employee size (full-time equivalents)",
+    "Parameter": "Employee Size",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "13",
+    "Category": "People & Talent",
+    "Description": "Current open job roles count and breakdown by department",
+    "Parameter": "Hiring Velocity",
+    "Type": "Text",
+    "MinMax": "1 | 5",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "14",
+    "Category": "People & Talent",
+    "Description": "The annual percentage of employees leaving the organization.",
+    "Parameter": "Employee Turnover",
+    "Type": "Text",
+    "MinMax": "1 | 1",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "15",
+    "Category": "People & Talent",
+    "Description": "The average length of time an employee stays with the company.",
+    "Parameter": "Average Retention Tenure",
+    "Type": "Text",
+    "MinMax": "1 | 1",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "16",
+    "Category": "Business Model",
+    "Description": "Primary customer problems/pain points the company solves",
+    "Parameter": "Pain Points Being Addressed",
+    "Type": "Text",
+    "MinMax": "2 | 8",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "17",
+    "Category": "Business Model",
+    "Description": "Target industries/sectors using GICS classification",
+    "Parameter": "Focus Sectors / Industries",
+    "Type": "Text",
+    "MinMax": "1 | 10",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "18",
+    "Category": "Business Model",
+    "Description": "Core products, services, or offerings provided",
+    "Parameter": "Services / Offerings / Products",
+    "Type": "Text",
+    "MinMax": "2 | 10",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "19",
+    "Category": "Business Model",
+    "Description": "Top 10-50 customers grouped by segments",
+    "Parameter": "Top Customers by Client Segments",
+    "Type": "Text",
+    "MinMax": "3 | 20",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "20",
+    "Category": "Business Model",
+    "Description": "Detailed breakdown of specific benefits and unique selling points for customers.",
+    "Parameter": "Core Value Proposition",
+    "Type": "Text",
+    "MinMax": "2 | 5",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "21",
+    "Category": "Strategy & Culture",
+    "Description": "Long-term aspirational goal of the company",
+    "Parameter": "Vision",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "22",
+    "Category": "Strategy & Culture",
+    "Description": "Short-term actionable purpose and objectives",
+    "Parameter": "Mission",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "23",
+    "Category": "Strategy & Culture",
+    "Description": "Core principles guiding decisions and behavior",
+    "Parameter": "Values",
+    "Type": "Text",
+    "MinMax": "3 | 7",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "24",
+    "Category": "Strategy & Culture",
+    "Description": "Unique features setting the company apart",
+    "Parameter": "Unique Differentiators",
+    "Type": "Text",
+    "MinMax": "2 | 6",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "25",
+    "Category": "Strategy & Culture",
+    "Description": "Sustainable edges like proprietary tech or network effects",
+    "Parameter": "Competitive Advantages",
+    "Type": "Text",
+    "MinMax": "2 | 6",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "26",
+    "Category": "Strategy & Culture",
+    "Description": "Notable gaps, limitations, or weaknesses in products/services",
+    "Parameter": "Weaknesses / Gaps in Offering",
+    "Type": "Text",
+    "MinMax": "1 | 5",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "27",
+    "Category": "Strategy & Culture",
+    "Description": "Major strategic, operational, or tech challenges faced",
+    "Parameter": "Key Challenges and Unmet Needs",
+    "Type": "Text",
+    "MinMax": "2 | 6",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "28",
+    "Category": "Competitive Landscape",
+    "Description": "Direct and indirect competitors in the market",
+    "Parameter": "Key Competitors",
+    "Type": "Text",
+    "MinMax": "5 | 20",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "29",
+    "Category": "Competitive Landscape",
+    "Description": "Strategic tech/alliance partners",
+    "Parameter": "Technology Partners",
+    "Type": "Text",
+    "MinMax": "2 | 8",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "30",
+    "Category": "Company Narrative",
+    "Description": "2-3 unique/interesting facts or stories about the company",
+    "Parameter": "Interesting Facts",
+    "Type": "Text",
+    "MinMax": "2 | 3",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "31",
+    "Category": "Company Narrative",
+    "Description": "Key news/events from the last 12-24 months with dates",
+    "Parameter": "Recent News",
+    "Type": "Text",
+    "MinMax": "2 | 8",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "32",
+    "Category": "Digital Presence",
+    "Description": "Primary official website URL",
+    "Parameter": "Website URL",
+    "Type": "URL",
+    "MinMax": "1 | 1",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "33",
+    "Category": "Digital Presence",
+    "Description": "Assessment of site UX, clarity, messaging, professionalism",
+    "Parameter": "Quality of Website",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "34",
+    "Category": "Digital Presence",
+    "Description": "Overall website quality score out of 10",
+    "Parameter": "Website Rating",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "35",
+    "Category": "Digital Presence",
+    "Description": "Global and US traffic rank",
+    "Parameter": "Website Traffic Rank",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "36",
+    "Category": "Digital Presence",
+    "Description": "Total followers across all social platforms",
+    "Parameter": "Social Media Followers \u2013 Combined",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "37",
+    "Category": "Digital Presence",
+    "Description": "Employee/review rating on Glassdoor",
+    "Parameter": "Glassdoor Rating",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "38",
+    "Category": "Digital Presence",
+    "Description": "Employee/review rating on Indeed",
+    "Parameter": "Indeed Rating",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "39",
+    "Category": "Digital Presence",
+    "Description": "Customer rating on Google Reviews",
+    "Parameter": "Google Reviews Rating",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "40",
+    "Category": "Digital Presence",
+    "Description": "Official LinkedIn company profile URL",
+    "Parameter": "LinkedIn Profile URL",
+    "Type": "URL",
+    "MinMax": "1 | 1",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "41",
+    "Category": "Digital Presence",
+    "Description": "Official Twitter/X handle",
+    "Parameter": "Twitter (X) Handle",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "42",
+    "Category": "Digital Presence",
+    "Description": "Official Facebook page URL",
+    "Parameter": "Facebook Page URL",
+    "Type": "URL",
+    "MinMax": "1 | 1",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "43",
+    "Category": "Digital Presence",
+    "Description": "Official Instagram page URL",
+    "Parameter": "Instagram Page URL",
+    "Type": "URL",
+    "MinMax": "1 | 1",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "44",
+    "Category": "Leadership",
+    "Description": "Name of the CEO/equivalent top executive",
+    "Parameter": "CEO Name",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "45",
+    "Category": "Leadership",
+    "Description": "CEO's LinkedIn profile URL",
+    "Parameter": "CEO LinkedIn URL",
+    "Type": "URL",
+    "MinMax": "1 | 1",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "46",
+    "Category": "Leadership",
+    "Description": "2-3 key executives: Name, Title, LinkedIn, Email, Phone",
+    "Parameter": "Key Business Leaders",
+    "Type": "Text",
+    "MinMax": "2 | 5",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "47",
+    "Category": "Leadership",
+    "Description": "Paths for warm intros (shared investors/board/alumni)",
+    "Parameter": "Warm Introduction Pathways",
+    "Type": "Text",
+    "MinMax": "1 | 5",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "48",
+    "Category": "Leadership",
+    "Description": "Ease of reaching decision makers (High/Med/Low + reasons)",
+    "Parameter": "Decision Maker Accessibility",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "49",
+    "Category": "Contact Info",
+    "Description": "General company inquiry email",
+    "Parameter": "Company Contact Email",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "50",
+    "Category": "Contact Info",
+    "Description": "Primary company phone number",
+    "Parameter": "Company Phone Number",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "51",
+    "Category": "Contact Info",
+    "Description": "Name of main point of contact",
+    "Parameter": "Primary Contact Person's Name",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "52",
+    "Category": "Contact Info",
+    "Description": "Title/role of primary contact",
+    "Parameter": "Primary Contact Person's Title",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "53",
+    "Category": "Contact Info",
+    "Description": "Email of primary contact",
+    "Parameter": "Primary Contact Person's Email",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "54",
+    "Category": "Contact Info",
+    "Description": "Phone of primary contact",
+    "Parameter": "Primary Contact Person's Phone Number",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "55",
+    "Category": "Reputation",
+    "Description": "Recent awards, certifications, or recognitions",
+    "Parameter": "Awards & Recognitions",
+    "Type": "Text",
+    "MinMax": "1 | 8",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "56",
+    "Category": "Reputation",
+    "Description": "Overall brand sentiment (qualitative score + data sources)",
+    "Parameter": "Brand Sentiment Score",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "57",
+    "Category": "Reputation",
+    "Description": "Recent conferences/events participated in",
+    "Parameter": "Event Participation",
+    "Type": "Text",
+    "MinMax": "2 | 6",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "58",
+    "Category": "Risk & Compliance",
+    "Description": "Key certifications (SOC2, HIPAA, GDPR, etc.)",
+    "Parameter": "Regulatory & Compliance Status",
+    "Type": "Text",
+    "MinMax": "1 | 6",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "59",
+    "Category": "Risk & Compliance",
+    "Description": "Any ongoing/resolved legal issues or controversies",
+    "Parameter": "Legal Issues / Controversies",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "60",
+    "Category": "Financials",
+    "Description": "Latest annual revenue figure (exact or estimated)",
+    "Parameter": "Annual Revenues",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "61",
+    "Category": "Financials",
+    "Description": "Latest annual profit/loss",
+    "Parameter": "Annual Profits",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "62",
+    "Category": "Financials",
+    "Description": "Breakdown of revenue (% recurring vs. one-time/service)",
+    "Parameter": "Revenue Mix",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "63",
+    "Category": "Financials",
+    "Description": "Most recent valuation or estimated value",
+    "Parameter": "Company Valuation",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "64",
+    "Category": "Financials",
+    "Description": "YoY revenue growth percentage",
+    "Parameter": "Year-over-Year Growth Rate",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "65",
+    "Category": "Financials",
+    "Description": "Current profitability (profitable/break-even/loss-making)",
+    "Parameter": "Profitability Status",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "66",
+    "Category": "Financials",
+    "Description": "Estimated market share in primary segment",
+    "Parameter": "Market Share (%)",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "67",
+    "Category": "Funding",
+    "Description": "Major investors or backers",
+    "Parameter": "Key Investors / Backers",
+    "Type": "Text",
+    "MinMax": "2 | 6",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "68",
+    "Category": "Funding",
+    "Description": "Details of recent funding: amount, date, stage",
+    "Parameter": "Recent Funding Rounds",
+    "Type": "Text",
+    "MinMax": "1 | 5",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "69",
+    "Category": "Funding",
+    "Description": "Cumulative capital raised to date",
+    "Parameter": "Total Capital Raised",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "70",
+    "Category": "Sustainability",
+    "Description": "ESG practices, scores, or initiatives",
+    "Parameter": "ESG Practices or Ratings",
+    "Type": "Text",
+    "MinMax": "1 | 5",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "71",
+    "Category": "Sales & Growth",
+    "Description": "Primary sales approach (PLG, Inside, Field Sales)",
+    "Parameter": "Sales Motion",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "72",
+    "Category": "Sales & Growth",
+    "Description": "Average cost to acquire a customer",
+    "Parameter": "Customer Acquisition Cost (CAC)",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "73",
+    "Category": "Sales & Growth",
+    "Description": "Average revenue per customer over lifetime",
+    "Parameter": "Customer Lifetime Value (CLV)",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "74",
+    "Category": "Sales & Growth",
+    "Description": "Ratio of CAC to CLV (ideal >3:1)",
+    "Parameter": "CAC:LTV Ratio",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "75",
+    "Category": "Sales & Growth",
+    "Description": "Annual customer churn percentage",
+    "Parameter": "Churn Rate",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "76",
+    "Category": "Sales & Growth",
+    "Description": "Customer satisfaction score (NPS)",
+    "Parameter": "Net Promoter Score (NPS)",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "77",
+    "Category": "Sales & Growth",
+    "Description": "Risk if top client >20% of revenue (yes/no + %)",
+    "Parameter": "Customer Concentration Risk",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "78",
+    "Category": "Sales & Growth",
+    "Description": "The amount of venture capital or cash the company spends monthly.",
+    "Parameter": "Burn Rate",
+    "Type": "Text",
+    "MinMax": "1 | 1",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "79",
+    "Category": "Sales & Growth",
+    "Description": "The number of months the company can operate before running out of cash.",
+    "Parameter": "Runway",
+    "Type": "Text",
+    "MinMax": "1 | 1",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "80",
+    "Category": "Sales & Growth",
+    "Description": "Efficiency metric (e.g., net burn / net new ARR)",
+    "Parameter": "Burn Multiplier",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "81",
+    "Category": "Innovation",
+    "Description": "Patents, trademarks, or key IP owned",
+    "Parameter": "Intellectual Property",
+    "Type": "Text",
+    "MinMax": "1 | 6",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "82",
+    "Category": "Innovation",
+    "Description": "R&D spend as % of revenue or absolute amount",
+    "Parameter": "R&D Investment",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "83",
+    "Category": "Innovation",
+    "Description": "Level of AI/ML use with specific examples",
+    "Parameter": "AI/ML Adoption Level",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "84",
+    "Category": "Operations",
+    "Description": "Key software/tools/tech stack used",
+    "Parameter": "Tech Stack/Tools Used",
+    "Type": "Text",
+    "MinMax": "3 | 10",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "85",
+    "Category": "Operations",
+    "Description": "Cybersecurity certifications or breach history",
+    "Parameter": "Cybersecurity Posture",
+    "Type": "Text",
+    "MinMax": "1 | 4",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "86",
+    "Category": "Operations",
+    "Description": "Critical suppliers and associated risks",
+    "Parameter": "Supply Chain Dependencies",
+    "Type": "Text",
+    "MinMax": "1 | 5",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "87",
+    "Category": "Operations",
+    "Description": "Geopolitical/macro risks (e.g., tariffs, regulations)",
+    "Parameter": "Geopolitical Risks",
+    "Type": "Text",
+    "MinMax": "1 | 4",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "88",
+    "Category": "Operations",
+    "Description": "External large-scale factors (political, economic) that could impact the business.",
+    "Parameter": "Macro Risks",
+    "Type": "Text",
+    "MinMax": "1 | 4",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "89",
+    "Category": "People & Talent",
+    "Description": "Workforce diversity breakdown and DEI efforts",
+    "Parameter": "Diversity Metrics",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "90",
+    "Category": "People & Talent",
+    "Description": "Remote/hybrid policy (% remote + productivity impact)",
+    "Parameter": "Remote Work Policy",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "91",
+    "Category": "People & Talent",
+    "Description": "Annual spend on employee training/development",
+    "Parameter": "Training/Development Spend",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "92",
+    "Category": "Market",
+    "Description": "Key strategic partnerships or alliances",
+    "Parameter": "Partnership Ecosystem",
+    "Type": "Text",
+    "MinMax": "2 | 8",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "93",
+    "Category": "Market",
+    "Description": "Potential or past events like IPOs, acquisitions, or mergers.",
+    "Parameter": "Exit Strategy/History",
+    "Type": "Text",
+    "MinMax": "1 | 3",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "94",
+    "Category": "Sustainability",
+    "Description": "Estimated carbon footprint or env. impact",
+    "Parameter": "Carbon Footprint/Environmental Impact",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "95",
+    "Category": "Sustainability",
+    "Description": "Practices for ethical sourcing/supply chain",
+    "Parameter": "Ethical Sourcing Practices",
+    "Type": "Text",
+    "MinMax": "1 | 4",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "96",
+    "Category": "Benchmarking",
+    "Description": "Key metrics compared to 3-5 peers",
+    "Parameter": "Benchmark vs. Peers",
+    "Type": "Text",
+    "MinMax": "3 | 6",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "97",
+    "Category": "Forecasting",
+    "Description": "Projected revenue/growth for next 1-3 years",
+    "Parameter": "Future Projections",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "98",
+    "Category": "Forecasting",
+    "Description": "Top 3-5 year priorities, initiatives, resource allocation",
+    "Parameter": "Strategic Priorities",
+    "Type": "Text",
+    "MinMax": "3 | 5",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "99",
+    "Category": "Network",
+    "Description": "Key industry associations, membership level/role, benefits",
+    "Parameter": "Industry Associations / Memberships",
+    "Type": "Text",
+    "MinMax": "2 | 6",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "100",
+    "Category": "Proof Points",
+    "Description": "2-5 public case studies with links and results",
+    "Parameter": "Case Studies / Public Success Stories",
+    "Type": "Text",
+    "MinMax": "2 | 5",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "101",
+    "Category": "Go-to-Market",
+    "Description": "Channels, pricing, buyer personas",
+    "Parameter": "Go-to-Market Strategy",
+    "Type": "Text",
+    "MinMax": "3 | 6",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "102",
+    "Category": "Innovation",
+    "Description": "Upcoming products/features, R&D pipeline status",
+    "Parameter": "Innovation Roadmap",
+    "Type": "Text",
+    "MinMax": "2 | 6",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "103",
+    "Category": "Innovation",
+    "Description": "Upcoming features, products, or services currently in development.",
+    "Parameter": "Product Pipeline",
+    "Type": "Text",
+    "MinMax": "2 | 6",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "104",
+    "Category": "Governance",
+    "Description": "Board/advisor composition, notable members, independence",
+    "Parameter": "Board of Directors / Advisors",
+    "Type": "Text",
+    "MinMax": "3 | 8",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "105",
+    "Category": "Digital Presence",
+    "Description": "Links to official video content or channel playlists.",
+    "Parameter": "Company Introduction / Marketing videos",
+    "Type": "URL",
+    "MinMax": "1 | 5",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "106",
+    "Category": "Proof Points",
+    "Description": "Quotes or video links from verified customers regarding their experience.",
+    "Parameter": "Customer testimonial",
+    "Type": "Text",
+    "MinMax": "2 | 5",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "107",
+    "Category": "Benchmarking",
+    "Description": "A comparison of the company's tech stack maturity against industry peers.",
+    "Parameter": "Industry Benchmark Technology Adoption Rating",
+    "Type": "Text",
+    "MinMax": "2 | 3",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "108",
+    "Category": "Market",
+    "Description": "The total global demand or revenue opportunity for a product/service if 100% market share is achieved.",
+    "Parameter": "Total Addressable Market (TAM)",
+    "Type": "Text",
+    "MinMax": "1 | 1",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "109",
+    "Category": "Market",
+    "Description": "The portion of TAM that is within the company\u2019s geographic and specialized reach.",
+    "Parameter": "Serviceable Addressable Market (SAM)",
+    "Type": "Text",
+    "MinMax": "1 | 1",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "110",
+    "Category": "Market",
+    "Description": "The specific percentage of SAM that the company realistically targets to capture in the short term.",
+    "Parameter": "Serviceable Obtainable Market (SOM)",
+    "Type": "Text",
+    "MinMax": "1 | 1",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "111",
+    "Category": "Culture & People",
+    "Description": "Describes whether the workplace encourages collaboration and mutual support or promotes internal competition and sustained pressure.",
+    "Parameter": "Work culture",
+    "Type": "Text",
+    "MinMax": "1 | 3",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "112",
+    "Category": "Culture & People",
+    "Description": "Indicates whether managers focus on coaching, mentoring, and long-term growth versus only driving task completion and short-term outcomes.",
+    "Parameter": "Manager quality",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "113",
+    "Category": "Culture & People",
+    "Description": "Reflects how safe employees feel to speak openly, ask questions, challenge ideas, and admit mistakes without fear of punishment.",
+    "Parameter": "Psychological safety",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "114",
+    "Category": "Culture & People",
+    "Description": "Shows whether feedback is continuous and constructive or limited to infrequent, formal review cycles.",
+    "Parameter": "Feedback culture",
+    "Type": "Text",
+    "MinMax": "1 | 2",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "115",
+    "Category": "Culture & People",
+    "Description": "Evaluates gender balance, inclusion practices, and whether diversity initiatives are meaningful or purely symbolic.",
+    "Parameter": "Diversity & inclusion",
+    "Type": "Text",
+    "MinMax": "1 | 5",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "116",
+    "Category": "Culture & People",
+    "Description": "Measures integrity, transparency, fairness, and how the organization handles ethical dilemmas and failures.",
+    "Parameter": "Ethical standards",
+    "Type": "Text",
+    "MinMax": "1 | 3",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "117",
+    "Category": "Work\u2013Life Balance & Work Patterns",
+    "Description": "Defines whether work hours are fixed, flexible, or unpredictable on a daily basis.",
+    "Parameter": "Typical working hours",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "118",
+    "Category": "Work\u2013Life Balance & Work Patterns",
+    "Description": "Assesses whether overtime is occasional and situational or routinely expected.",
+    "Parameter": "Overtime expectations",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "119",
+    "Category": "Work\u2013Life Balance & Work Patterns",
+    "Description": "Indicates how often employees are required to work on weekends.",
+    "Parameter": "Weekend work",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "120",
+    "Category": "Work\u2013Life Balance & Work Patterns",
+    "Description": "Describes flexibility in choosing between remote, hybrid, or fully on-site work models.",
+    "Parameter": "Remote / hybrid / on-site flexibility",
+    "Type": "Text",
+    "MinMax": "1 | 3",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "121",
+    "Category": "Work\u2013Life Balance & Work Patterns",
+    "Description": "Evaluates how easy it is to take leaves, including sick leave and mental health days.",
+    "Parameter": "Leave policy",
+    "Type": "Text",
+    "MinMax": "1 | 4",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "122",
+    "Category": "Work\u2013Life Balance & Work Patterns",
+    "Description": "Measures whether the pace of work is intense but sustainable or leads to frequent burnout and firefighting.",
+    "Parameter": "Burnout risk",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "123",
+    "Category": "Location, Commute & Accessibility",
+    "Description": "Identifies whether the office is located in a central business area or on the city outskirts.",
+    "Parameter": "Central vs peripheral location",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "124",
+    "Category": "Location, Commute & Accessibility",
+    "Description": "Assesses availability and convenience of public transport options near the office.",
+    "Parameter": "Public transport access",
+    "Type": "Text",
+    "MinMax": "1 | 4",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "125",
+    "Category": "Location, Commute & Accessibility",
+    "Description": "Evaluates availability of cabs and whether the company provides transport support.",
+    "Parameter": "Cab availability and company cab policy",
+    "Type": "Text",
+    "MinMax": "1 | 3",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "126",
+    "Category": "Location, Commute & Accessibility",
+    "Description": "Measures travel time to the nearest airport, relevant for client-facing or travel-heavy roles.",
+    "Parameter": "Commute time from airport",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "127",
+    "Category": "Location, Commute & Accessibility",
+    "Description": "Indicates whether the office is in a tech park, IT hub, or mixed-use commercial area.",
+    "Parameter": "Office zone type",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "128",
+    "Category": "Safety & Well-being",
+    "Description": "Evaluates safety of the surrounding area during both daytime and late hours.",
+    "Parameter": "Area safety",
+    "Type": "Text",
+    "MinMax": "1 | 2",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "129",
+    "Category": "Safety & Well-being",
+    "Description": "Assesses company policies related to employee safety, including late-night transport and women safety measures.",
+    "Parameter": "Company safety policies",
+    "Type": "Text",
+    "MinMax": "1 | 4",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "130",
+    "Category": "Safety & Well-being",
+    "Description": "Reviews physical safety standards of office infrastructure and facilities.",
+    "Parameter": "Office infrastructure safety",
+    "Type": "Text",
+    "MinMax": "1 | 3",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "131",
+    "Category": "Safety & Well-being",
+    "Description": "Measures preparedness for medical, fire, or other emergency situations.",
+    "Parameter": "Emergency response preparedness",
+    "Type": "Text",
+    "MinMax": "1 | 4",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "132",
+    "Category": "Safety & Well-being",
+    "Description": "Evaluates quality of health insurance, OPD benefits, and mental health support.",
+    "Parameter": "Health support",
+    "Type": "Text",
+    "MinMax": "1 | 5",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "133",
+    "Category": "Learning & Growth Opportunities",
+    "Description": "Assesses effectiveness of onboarding programs and initial training.",
+    "Parameter": "Onboarding and training quality",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "134",
+    "Category": "Learning & Growth Opportunities",
+    "Description": "Indicates availability of certifications, courses, and internal learning platforms.",
+    "Parameter": "Learning culture",
+    "Type": "Text",
+    "MinMax": "1 | 4",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "135",
+    "Category": "Learning & Growth Opportunities",
+    "Description": "Measures exposure to real-world problem solving versus repetitive or low-impact tasks.",
+    "Parameter": "Exposure quality",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "136",
+    "Category": "Learning & Growth Opportunities",
+    "Description": "Evaluates access to experienced mentors and guidance.",
+    "Parameter": "Mentorship availability",
+    "Type": "Text",
+    "MinMax": "1 | 3",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "137",
+    "Category": "Learning & Growth Opportunities",
+    "Description": "Indicates ease of moving across roles or teams internally.",
+    "Parameter": "Internal mobility",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "138",
+    "Category": "Learning & Growth Opportunities",
+    "Description": "Clarifies whether promotions are merit-based, time-based, and transparently defined.",
+    "Parameter": "Promotion clarity",
+    "Type": "Text",
+    "MinMax": "1 | 3",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "139",
+    "Category": "Learning & Growth Opportunities",
+    "Description": "Assesses access to modern tools, software, and technologies used in the industry.",
+    "Parameter": "Tools and technology access",
+    "Type": "Text",
+    "MinMax": "1 | 5",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "140",
+    "Category": "Role & Work Quality",
+    "Description": "Measures how clearly role responsibilities and expectations are defined.",
+    "Parameter": "Role clarity",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "141",
+    "Category": "Role & Work Quality",
+    "Description": "Assesses level of ownership and responsibility given early in the role.",
+    "Parameter": "Early ownership",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "142",
+    "Category": "Role & Work Quality",
+    "Description": "Evaluates whether work impacts internal processes, customers, or revenue directly.",
+    "Parameter": "Work impact",
+    "Type": "Text",
+    "MinMax": "1 | 3",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "143",
+    "Category": "Role & Work Quality",
+    "Description": "Indicates balance between execution-focused tasks and strategic or analytical thinking.",
+    "Parameter": "Execution vs thinking balance",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "144",
+    "Category": "Role & Work Quality",
+    "Description": "Measures reliance on automation versus manual or repetitive work.",
+    "Parameter": "Automation level",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "145",
+    "Category": "Role & Work Quality",
+    "Description": "Assesses opportunities to collaborate with multiple teams or functions.",
+    "Parameter": "Cross-functional exposure",
+    "Type": "Text",
+    "MinMax": "1 | 4",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "146",
+    "Category": "Company Stability & Reputation",
+    "Description": "Identifies whether the company is a startup, scale-up, or mature enterprise.",
+    "Parameter": "Company maturity",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "147",
+    "Category": "Company Stability & Reputation",
+    "Description": "Evaluates brand recognition and perceived resume value.",
+    "Parameter": "Brand value",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "148",
+    "Category": "Company Stability & Reputation",
+    "Description": "Assesses quality of clients and their standing in the industry.",
+    "Parameter": "Client quality",
+    "Type": "Text",
+    "MinMax": "1 | 5",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "149",
+    "Category": "Company Stability & Reputation",
+    "Description": "Reviews past instances of layoffs, restructuring, or instability.",
+    "Parameter": "Layoff history",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "150",
+    "Category": "Compensation & Benefits",
+    "Description": "Indicates proportion of fixed salary versus variable or performance-linked pay.",
+    "Parameter": "Fixed vs variable pay",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "151",
+    "Category": "Compensation & Benefits",
+    "Description": "Measures consistency and reliability of bonuses.",
+    "Parameter": "Bonus predictability",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "152",
+    "Category": "Compensation & Benefits",
+    "Description": "Evaluates ESOPs or long-term incentives and their actual realized value.",
+    "Parameter": "ESOPs and long-term incentives",
+    "Type": "Text",
+    "MinMax": "1 | 3",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "153",
+    "Category": "Compensation & Benefits",
+    "Description": "Assesses health insurance coverage for employees and dependents.",
+    "Parameter": "Family health insurance",
+    "Type": "Text",
+    "MinMax": "1 | 4",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "154",
+    "Category": "Compensation & Benefits",
+    "Description": "Indicates support provided for relocation expenses.",
+    "Parameter": "Relocation support",
+    "Type": "Text",
+    "MinMax": "1 | 3",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "155",
+    "Category": "Compensation & Benefits",
+    "Description": "Reviews additional benefits such as meals, transport, and wellness programs.",
+    "Parameter": "Lifestyle and wellness benefits",
+    "Type": "Text",
+    "MinMax": "1 | 6",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "156",
+    "Category": "Long-Term Career Signaling",
+    "Description": "Tracks typical career paths of former employees.",
+    "Parameter": "Exit opportunities",
+    "Type": "Text",
+    "MinMax": "1 | 5",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "157",
+    "Category": "Long-Term Career Signaling",
+    "Description": "Evaluates relevance of skills gained to the broader industry.",
+    "Parameter": "Skill relevance",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "158",
+    "Category": "Long-Term Career Signaling",
+    "Description": "Measures recognition and credibility among top-tier employers.",
+    "Parameter": "External recognition",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "159",
+    "Category": "Long-Term Career Signaling",
+    "Description": "Assesses strength of alumni and leadership networks.",
+    "Parameter": "Network strength",
+    "Type": "Text",
+    "MinMax": "1 | 3",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "160",
+    "Category": "Long-Term Career Signaling",
+    "Description": "Indicates exposure to global clients, teams, or markets.",
+    "Parameter": "Global exposure",
+    "Type": "Text",
+    "MinMax": "1 | 3",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "161",
+    "Category": "Values Alignment",
+    "Description": "Evaluates clarity and consistency of the company\u2019s mission and purpose.",
+    "Parameter": "Mission clarity",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  },
+  {
+    "ID": "162",
+    "Category": "Values Alignment",
+    "Description": "Assesses commitment to sustainability and social responsibility.",
+    "Parameter": "Sustainability and CSR",
+    "Type": "Text",
+    "MinMax": "1 | 3",
+    "A/C": "Composite"
+  },
+  {
+    "ID": "163",
+    "Category": "Values Alignment",
+    "Description": "Reviews company behavior and decision-making during crises.",
+    "Parameter": "Crisis behavior",
+    "Type": "Text",
+    "MinMax": "As needed",
+    "A/C": "Atomic"
+  }
+]

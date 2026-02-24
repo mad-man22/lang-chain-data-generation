@@ -1,0 +1,8 @@
+langchain==0.3.17
+langchain-core==0.3.34
+langchain-groq==0.2.4
+langgraph==0.2.69
+pandas==2.2.3
+openpyxl==3.1.5
+python-dotenv==1.0.1
+duckduckgo-search==7.3.2
